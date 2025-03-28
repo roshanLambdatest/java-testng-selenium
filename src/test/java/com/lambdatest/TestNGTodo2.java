@@ -20,8 +20,8 @@ public class TestNGTodo2 {
 
     @BeforeMethod
     public void setup(Method m, ITestContext ctx) throws MalformedURLException {
-        String username = System.getenv("roshank") == null ? "Your LT Username" : System.getenv("LT_USERNAME");
-        String authkey = System.getenv("LT_0uuZ6lYn8sxQ55aGYiXLDG3lwakfEsccxuWBBfm4EeMb4Wm") == null ? "Your LT AccessKey" : System.getenv("LT_ACCESS_KEY");
+        String username = "roshank"; //System.getenv("roshank") == null ? "Your LT Username" : System.getenv("LT_USERNAME");
+        String authkey = "LT_0uuZ6lYn8sxQ55aGYiXLDG3lwakfEsccxuWBBfm4EeMb4Wm"; //System.getenv("LT_0uuZ6lYn8sxQ55aGYiXLDG3lwakfEsccxuWBBfm4EeMb4Wm") == null ? "Your LT AccessKey" : System.getenv("LT_ACCESS_KEY");
         ;
         
         /*
